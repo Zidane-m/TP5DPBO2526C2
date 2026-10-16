@@ -173,27 +173,31 @@ Class turunan `JFrame` yang menjadi pengendali tampilan GUI dan perantara aksi p
 
 ## 3. Dokumentasi Program (CRUD)
 
-> Bukti tangkapan layar pengujian fungsionalitas CRUD dan Error Handling pada aplikasi:
+> Bukti tangkapan layar pengujian fungsionalitas CRUD dan Error Handling:
 
 ### 1. Tambah Data (Create)
-![isi form tambah data](Dokumentasi/isi_tambah_data.png)
-![tambah data berhasil](Dokumentasi/tambah_data_berhasil.png)
+![isi form tambah data](Dokumentasi/add_data.png)
+![tambah data berhasil](Dokumentasi/add_berhasil.png)
 
 ### 2. Ubah Data (Update)
-![pilih data untuk update](Dokumentasi/update_data_pilih.png)
+![pilih data untuk update](Dokumentasi/update_pilih.png)
 ![update data](Dokumentasi/update_data.png)
-![update data berhasil](Dokumentasi/update_data_berhasil.png)
+![update data berhasil](Dokumentasi/update_berhasil.png)
 
 ### 3. Hapus Data (Delete)
-![konfirmasi hapus data](Dokumentasi/konfirmasi_hapus_data.png)
-![hapus data berhasil](Dokumentasi/data_hapus_berhasil.png)
+![pilih data yang ingin dihapus](Dokumentasi/delete_pilih.png)
+![konfirmasi hapus data](Dokumentasi/delete_konfirmasi.png)
+![hapus data berhasil](Dokumentasi/delete_berhasil.png)
 
 ### 4. Error Handling & Dialog Validasi
 #### A. Validasi Kolom Kosong
-![error kolom kosong](Dokumentasi/eror_handling_field_kosong.png)
+![error kolom kosong](Dokumentasi/eror_handling_form_kosong.png)
+![error kolom kosong (lanjutan)](Dokumentasi/eror_handling_form_kosong_2.png)
 
 #### B. Validasi Duplikasi ID (ID Sama)
-![error id duplikat](Dokumentasi/eror_handling_id_sama.png)
+![error id duplikat](Dokumentasi/eror_handling_id_duplikat.png)
+![error id duplikat (lanjutan)](Dokumentasi/eror_handling_id_duplikat_2.png)
 
 #### C. Validasi Tipe Data Tahun Lahir Bukan Angka
-![error tipe tahun salah](Dokumentasi/eror_handling_tipe_tahun.png)
+![error tipe tahun salah](Dokumentasi/eror_handling_tipe_input.png)
+![error tipe tahun salah (lanjutan)](Dokumentasi/eror_handling_tipe_input_2.png)
