@@ -22,9 +22,9 @@ Program **PeopleData** dibangun menggunakan tiga class Java (`Database`, `Person
 
 ```mermaid
 classDiagram
-    JFrame <|-- PeopleMenu : extends
-    PeopleMenu ..> Database : Menggunakan (JDBC Operations)
-    PeopleMenu ..> Person : Menggunakan (Data Model)
+    JFrame <|-- PeopleMenu : Inheritance (extends)
+    PeopleMenu *-- Database : Komposisi (Memiliki objek Database)
+    PeopleMenu ..> Person : Dependensi (Data Model)
 
     class Database {
         -connection : Connection
@@ -56,6 +56,7 @@ classDiagram
 
     class PeopleMenu {
         -selectedIndex : int
+        -database : Database
         -mainPanel : JPanel
         -idField : JTextField
         -namaField : JTextField
